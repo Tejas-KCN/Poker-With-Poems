@@ -1,0 +1,11 @@
+{
+  "name": "unopened-letter",
+  "version": "1.0.0",
+  "description": "The Unopened Letter: a poem game where your poker hand decides which poem you read.",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node build.js --preview",
+    "test": "node tests/hands.test.js"
+  }
+}
