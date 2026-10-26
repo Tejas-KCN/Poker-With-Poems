@@ -46,14 +46,6 @@ Open `index.html` in a browser to play. `preview.html` is for proofreading all p
 - A line starting with `>` is stepped in; repeat it for a deeper step.
 - A line starting with `~` is another voice.
 
-## Publish with GitHub Pages
-
-1. Push this repo to GitHub (default branch `main`).
-2. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. The included workflow tests, builds and deploys on every push. Your link will be `https://<username>.github.io/poker-with-poems/`.
-
-For a custom domain, add it under Settings → Pages and add a `CNAME` file containing the domain to the repo root; then also copy it into the deployed folder by adding `cp CNAME _site/` to the workflow.
-
 ## Notes
 
 Fonts (IM Fell English, Newsreader, Courier Prime) load from Google Fonts. Without a connection the page falls back to system serif and monospace fonts. Sound starts on the first tap, as browsers require, and progress is saved in the visitor's browser.
